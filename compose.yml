@@ -6,4 +6,5 @@ services:
     ports:
     - '80:80'
     volumes:
-    - ./website:/usr/local/apache2/htdocs
+    - /home/iac/projeto-docker/website:/usr/local/apache2/htdocs
+
